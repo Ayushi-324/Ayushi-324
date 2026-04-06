@@ -23,7 +23,7 @@ A research-oriented portfolio of 5 experiments exploring the foundations of ML f
 
 ### 📱 [SMS Spam Classifier](https://github.com/Ayushi-324/SMS_Spam_Classifier)
 NLP-based classifier achieving 97% accuracy and 100% precision — built with a full text preprocessing pipeline and deployed as a live app.
-- **Live:** Hugging Face Spaces
+- **Live:** https://ayushi321-sms-spam-classifier.hf.space/
 - **Stack:** Python · NLTK · Scikit-learn · TF-IDF · Gradio
 
 ---

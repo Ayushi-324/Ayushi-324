@@ -40,8 +40,17 @@ Built to move beyond API usage and demonstrate mechanistic understanding of ML i
 
 ---
 
-### 🔬 [ML Systems From Scratch](https://github.com/Ayushi-324/ML-Systems-From-Scratch)
-A research-oriented portfolio of 5 experiments exploring the foundations of ML from first principles — gradient dynamics, adversarial robustness, implicit bias, and more.
+### 🧪 [ML Systems From Scratch](https://github.com/Ayushi-324/ML-Systems-From-Scratch)
+A research-oriented portfolio of 5 experiments studying the core mechanics of machine learning — not to apply models, but to understand what's actually happening inside them.
+
+| Experiment | Focus |
+|---|---|
+| 01 — Noise Sensitivity | How label noise degrades convergence and stability |
+| 02 — Learning Rate Stability | How gradient descent behaves under different LR regimes |
+| 03 — Feature Scaling | How preprocessing reshapes the loss landscape geometrically |
+| 04 — Adversarial Robustness | How FGSM attacks exploit gradients and how to mitigate them |
+| 05 — Implicit Bias | Why gradient descent favors minimum-norm solutions in overparameterized models |
+
 - **Stack:** Python · PyTorch · NumPy · Matplotlib
 
 ---

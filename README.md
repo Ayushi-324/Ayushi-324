@@ -8,6 +8,15 @@ I don't just apply models — I am interested in reverse-engineer process to und
 
 ## 🚀 Projects
 
+### 🧠 [MindLens — Cognitive Bias Detector](https://github.com/Ayushi-324/MindLens)
+An AI-powered critical thinking tool that identifies 20+ psychological biases and logical fallacies in any text — and tracks your reasoning patterns over time.
+
+- **Live:** https://mindlens-app.onrender.com
+- **Features:** Reasoning Quality Score (1–10) · Cognitive DNA Profile · Global Benchmarking (You vs all users)
+- **Stack:** FastAPI · Google Gemini 1.5 Flash · PostgreSQL · SQLAlchemy · HTML/CSS/JS · Render
+
+---
+
 ### 🎯 [AI Interview Simulator](https://github.com/Ayushi-324/AI-Interview-Simulator)
 An AI-powered interview prep tool that generates role-specific questions, evaluates answers in real-time, and produces hiring recommendations.
 - **Live:** https://ai-interview-simulator-569n.onrender.com
@@ -16,6 +25,22 @@ An AI-powered interview prep tool that generates role-specific questions, evalua
 ---
 
 ### 🔬 [AI Systems From Scratch](https://github.com/Ayushi-324/AI-Systems-From-Scratch)
+A structured exploration of how modern AI systems actually work — from optimization dynamics to production-grade architectures like RAG.
+Built to move beyond API usage and demonstrate mechanistic understanding of ML internals.
+
+| Experiment | Focus |
+|---|---|
+| 01 — Optimization Dynamics | How learning rate governs convergence and stability |
+| 02 — Representation Learning | How neural networks reshape data geometry |
+| 03 — Generalization vs Overfitting | Why models memorize instead of learn |
+| 04 — Attention Mechanism | How transformers route information dynamically |
+| 05 — RAG | How retrieval + generation builds reliable AI systems |
+
+- **Stack:** Python · PyTorch · NumPy · Matplotlib · Gemini API
+
+---
+
+### 🔬 [ML Systems From Scratch](https://github.com/Ayushi-324/ML-Systems-From-Scratch)
 A research-oriented portfolio of 5 experiments exploring the foundations of ML from first principles — gradient dynamics, adversarial robustness, implicit bias, and more.
 - **Stack:** Python · PyTorch · NumPy · Matplotlib
 
@@ -41,7 +66,7 @@ A leakage-proof ML pipeline predicting diabetes risk with ROC-AUC of 0.801, depl
 
 **ML/AI:** PyTorch, Scikit-learn, NLTK, TF-IDF, Gemini API
 
-**Backend:** FastAPI, SQLAlchemy, SQLite
+**Backend:** FastAPI, SQLAlchemy, SQLite, PostgreSQL
 
 **Deployment:** Render, Hugging Face Spaces, Streamlit Cloud
 

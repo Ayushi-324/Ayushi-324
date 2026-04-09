@@ -2,82 +2,80 @@
 
 Passionate about machine learning, AI systems, and building end-to-end applications that solve real problems.
 
-I don't just apply models — I am interested in reverse-engineer process to understand *WHY* things work, not just that they work.
+I don't just apply models — I am interested in reverse-engineering processes to understand *WHY* things work, not just that they work.
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
 ### 🧠 [MindLens — Cognitive Bias Detector](https://github.com/Ayushi-324/MindLens)
-An AI-powered critical thinking tool that identifies 20+ psychological biases and logical fallacies in any text — and tracks your reasoning patterns over time.
+An AI-powered critical thinking tool that identifies 20+ psychological biases and logical fallacies in any text — tracking your reasoning patterns over time.
 
-- **Live:** https://mindlens-app.onrender.com
-- **Features:** Reasoning Quality Score (1–10) · Cognitive DNA Profile · Global Benchmarking (You vs all users)
+- **Live:** [MindLens App](https://mindlens-app.onrender.com)
+- **⚡ Note:** *This app is hosted on an on-demand server; please allow 30-60 seconds for the initial "wake-up" load.*
+- **Features:** Reasoning Quality Score (1–10) · Cognitive DNA Profile · Global Benchmarking.
 - **Stack:** FastAPI · Google Gemini 1.5 Flash · PostgreSQL · SQLAlchemy · HTML/CSS/JS · Render
 
 ---
 
 ### 🎯 [AI Interview Simulator](https://github.com/Ayushi-324/AI-Interview-Simulator)
-An AI-powered interview prep tool that generates role-specific questions, evaluates answers in real-time, and produces hiring recommendations.
-- **Live:** https://ai-interview-simulator-569n.onrender.com
-- **Stack:** FastAPI · Google Gemini API · SQLite · HTML/CSS/JS · Render
+A containerized AI prep tool that generates role-specific questions, evaluates answers in real-time using LLaMA 3.1, and produces comprehensive hiring reports.
+
+- **Live:** [Hugging Face Space](https://huggingface.co/spaces/ayushi3/AI-Interview-Simulator)
+- **Architecture:** Rebuilt as a unified Docker container for high-speed performance and zero-CORS latency.
+- **Stack:** FastAPI · Groq API (LLaMA 3.1) · SQLite · Docker · HTML/CSS/JS · Hugging Face
 
 ---
 
 ### 🔬 [AI Systems From Scratch](https://github.com/Ayushi-324/AI-Systems-From-Scratch)
 A structured exploration of how modern AI systems actually work — from optimization dynamics to production-grade architectures like RAG.
-Built to move beyond API usage and demonstrate mechanistic understanding of ML internals.
 
 | Experiment | Focus |
 |---|---|
 | 01 — Optimization Dynamics | How learning rate governs convergence and stability |
-| 02 — Representation Learning | How neural networks reshape data geometry |
-| 03 — Generalization vs Overfitting | Why models memorize instead of learn |
-| 04 — Attention Mechanism | How transformers route information dynamically |
-| 05 — RAG | How retrieval + generation builds reliable AI systems |
+| 02 — Attention Mechanism | How transformers route information dynamically |
+| 03 — RAG | How retrieval + generation builds reliable AI systems |
 
 - **Stack:** Python · PyTorch · NumPy · Matplotlib · Gemini API
 
 ---
 
 ### 🧪 [ML Systems From Scratch](https://github.com/Ayushi-324/ML-Systems-From-Scratch)
-A research-oriented portfolio of 5 experiments studying the core mechanics of machine learning — not to apply models, but to understand what's actually happening inside them.
+A research-oriented portfolio of experiments studying the core mechanics of machine learning to understand the geometric and probabilistic reality inside the "black box."
 
 | Experiment | Focus |
 |---|---|
 | 01 — Noise Sensitivity | How label noise degrades convergence and stability |
-| 02 — Learning Rate Stability | How gradient descent behaves under different LR regimes |
-| 03 — Feature Scaling | How preprocessing reshapes the loss landscape geometrically |
-| 04 — Adversarial Robustness | How FGSM attacks exploit gradients and how to mitigate them |
-| 05 — Implicit Bias | Why gradient descent favors minimum-norm solutions in overparameterized models |
+| 02 — Feature Scaling | How preprocessing reshapes the loss landscape |
+| 03 — Implicit Bias | Why GD favors minimum-norm solutions in overparameterized models |
 
 - **Stack:** Python · PyTorch · NumPy · Matplotlib
 
 ---
 
 ### 📱 [SMS Spam Classifier](https://github.com/Ayushi-324/SMS_Spam_Classifier)
-NLP-based classifier achieving 97% accuracy and 100% precision — built with a full text preprocessing pipeline and deployed as a live app.
-- **Live:** https://ayushi321-sms-spam-classifier.hf.space/
+NLP-based classifier achieving 97% accuracy and 100% precision — built with a full text preprocessing pipeline.
+- **Live:** [Hugging Face Demo](https://ayushi321-sms-spam-classifier.hf.space/)
 - **Stack:** Python · NLTK · Scikit-learn · TF-IDF · Gradio
 
 ---
 
 ### 🩺 [Diabetes Predictor](https://github.com/Ayushi-324/Diabetes_Prediction_ML)
 A leakage-proof ML pipeline predicting diabetes risk with ROC-AUC of 0.801, deployed as an interactive web app.
-- **Live:** https://diabetespredictionml-ayushi.streamlit.app/
+- **Live:** [Streamlit App](https://diabetespredictionml-ayushi.streamlit.app/)
 - **Stack:** Python · Scikit-learn · Gaussian Naive Bayes · Streamlit
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python, SQL, HTML, CSS, JavaScript
+**Languages:** Python (Expert), SQL, HTML, CSS, JavaScript
 
-**ML/AI:** PyTorch, Scikit-learn, NLTK, TF-IDF, Gemini API
+**ML/AI:** PyTorch, Scikit-learn, NLTK, LLM Orchestration (Gemini/Groq), RAG
 
-**Backend:** FastAPI, SQLAlchemy, SQLite, PostgreSQL
+**Backend & DevOps:** FastAPI, SQLAlchemy, Docker, PostgreSQL, SQLite
 
-**Deployment:** Render, Hugging Face Spaces, Streamlit Cloud
+**Deployment:** Hugging Face Spaces, Render, Streamlit Cloud
 
 ---
 
